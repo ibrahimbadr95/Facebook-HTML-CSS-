@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+                        /* Header */
+
+header{
+    background-color: #3B5998;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.inline{
+    display: inline-block;
+    vertical-align: top;
+}
+#logo{
+    margin-left: 300px;
+}
+header input{
+    border: rgb(0, 0, 0) 1px solid;
+    height: 20px;
+}
+.login-btn {
+    background-color:#6079AB;
+    color: #fff;
+    padding: 1px 3px;
+    border: 2px #3B548B solid;
+    height: 23px;
+    font-weight: bold;
+}
+.email-header{
+    margin-left: 340px;
+}
+                        /* Header */
+                        /* section */
+section{
+    background-image: linear-gradient(white, #D2D8E8);
+    color:#254B6E ;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+a{
+    color: #3F5C9A;
+    text-decoration: none;
+}
+.left-sec{
+    margin-left: 300px;
+}
+.left-sec p{
+    width: 400px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.left-sec img{
+    width: 400px;
+}
+.right-sec{
+    width: 300px;
+    margin-left: 200px;
+    /* border: red 2px solid; */
+}
+.underline{
+    border-bottom: solid#AABBD2 2px;
+    margin-bottom: 10px;
+    /* padding:0px 10px; */
+}
+
+table td {
+    color: #2B3765;
+    width: 150px;
+    text-align: right;
+}
+section input{
+    border: #96A6C5 2px solid;
+    height: 25px;
+    width: 200px;
+}
+table select{
+    border: #BDC7D8 2px solid;
+    border-radius: 5px;
+    padding: 0 0px;
+}
+.align-left-tbl{
+    text-align: left;
+}
+.spc-btm{
+    padding-bottom: 20px;
+}
+.small-font{
+    font-size: 14px;
+}
+.signup-btn{
+    background-color: #69A74E;
+    color: white;
+    font-weight: bold;
+    border: #465544 solid 2px;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+.create-page{
+    text-align: center;
+    color: #3d3f3f;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+                        /* section */
+                        /* Footer */
+
+footer{
+    margin-left: 300px;
+    width: 920px;
+}
+.first-line-ftr{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.first-line-ftr a{
+    margin: 0 2px;
+}
+.lang-style{
+    background-color: #ECEFF5;
+    padding: 1px 7px;
+}
+.btm-lft-ftr{
+    color: #858585;
+}
+.btm-rght-ftr{
+    width: 450px;
+    margin-left: 240px;
+    text-align: right;
+}
+footer li{
+    display: inline-block;
+    padding: 1px;
+}
+.ul-style{ 
+    list-style-type: disc;
+}
